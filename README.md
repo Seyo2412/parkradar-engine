@@ -15,12 +15,12 @@
 ## Architecture & Features
 
  ```text
- [Open Data Zurich API] ──┐
-                          ├──> [Data Aggregator] ──> [Price & Walk Optimizer] ──> [Streamlit UI / Folium Map]
- [Weather / Event Flags]  ──┘          │
+ [Open Data Zurich API]   ──┐
+                            ├──> [Data Aggregator] ──> [Price & Walk Optimizer] ──> [Streamlit UI / Folium Map]
+ [Weather / Event Flags]  ──┘           │
                                         ▼
                         [ML RandomForest Regressor]
-                        (Street Parking Probability
+                        (Street Parking Probability)
  ```
 
  - Open Data Ingestion: Aggregates real-time occupancy rates, capacities, and coordinates across major car parks in Zurich.
